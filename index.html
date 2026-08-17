@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,159 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <!--Termina tipografia-->
     <link rel="stylesheet" href="styles.css"><!--enlace a estilos-->
+    <title>Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+<body>
+
+
+    <!--* ========= Hero Banner ========= -->
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="access/Friends.jpg" class="d-block w-100" alt="..." height="600">
+                <div class="carousel-caption d-none d-md-block">
+                    <p><strong> Serie • Comedia • 1998 • 10 temporadas • </strong> TV-PG </p>
+                    <button type="button" class="btn btn-light"> > Reproducir</button>
+                    <button type="button" class="btn btn-secondary">Más info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/access/JuegosHambre.jpg" class="d-block w-100" alt="..." height="600">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p><strong>Pelicula • Ficcion • 20121 • 24 minutos • </strong>TV-PG </p>
+                    <button type="button" class="btn btn-light"> > Reproducir</button>
+                    <button type="button" class="btn btn-secondary">Más info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="access/Naruto.jpg" class="d-block w-100" alt="..." height="600">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p><strong> Serie • Anime • 2007 • 21 temporadas • </strong> TV-PG </p>
+                    <button type="button" class="btn btn-light"> > Reproducir</button>
+                    <button type="button" class="btn btn-secondary">Más info</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="access/matrix.jpg" class="d-block w-100" alt="..." height="600">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p><strong> Pelicula • Ficcion • 2008 • 233 minutos • </strong> TV-PG </p>
+                    <button type="button" class="btn btn-light"> > Reproducir</button>
+                    <button type="button" class="btn btn-secondary">Más info</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--* ======= End Hero Banner ======= -->
+    <!-- Inicio Carrusel Tendencias -->
+
+
+<!-- CONTENEDOR PRINCIPAL -->
+<div id="carruselTendencias" class="carousel slide container my-4">
+  
+  <h2 class="text-white mb-3">Tendencias ahora</h2>
+
+  <!-- ENVOLTURA DE DIAPOSITIVAS -->
+  <div class="carousel-inner">
+
+    <!-- DIAPOSITIVA 1 (Se muestra al cargar porque tiene "active") -->
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card bg-dark text-white border-0">
+            <img src="https://media.a24.com/p/8045d298fbb5d9bacbb32108197602a6/adjuntos/296/imagenes/008/564/0008564494/1200x675/smart/netflix-breaking-bad-seriepng.png"
+             class="card-img-top" alt="Película 1">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card bg-dark text-white border-0">
+            <img src="https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABe9jb3zhuWPdRg39edzUOWnavQIUsFtxiaGVvjxxEgzsq6X6tvZbDO4_w_ybj6iA67MOzI5Bj6Hh7RBRWc8mgpEUIf81U20b9TuM.jpg?r=5c7" class="card-img-top" alt="Película 2">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card bg-dark text-white border-0">
+            <img src="https://i.blogs.es/0fef3f/narcosmexico/1366_2000.jpg" class="card-img-top" alt="Película 3">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card bg-dark text-white border-0">
+            <img src="https://uvn-brightspot.s3.amazonaws.com/assets/vixes/c/control-z-poster-netflix-02.jpg" class="card-img-top" alt="Película 4">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PASO E: DIAPOSITIVA 2 (Aparece al dar clic en la flecha. NO lleva "active") -->
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card bg-dark text-white border-0">
+            <img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/6237f381-2ab7-41ca-8e73-e177033de02f/bf2f7417-b348-11ef-9fed-0affd17b6387?host=wbd-images.prod-vod.h264.io&partner=beamcom" class="card-img-top" alt="Película 5">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card bg-dark text-white border-0">
+            <img src="https://media.spectrummagazine.org/app/uploads/2021/01/the_king_netflix-1248x702.jpg" class="card-img-top" alt="Película 6">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card bg-dark text-white border-0">
+            <img src="https://poptv.orange.es/wp-content/uploads/sites/3/2023/05/air-pelicula-historia-nike-jordan-01.jpg" class="card-img-top" alt="Película 7">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card bg-dark text-white border-0">
+            <img src="https://www.nacionflix.com/img/2021/08/17/el-infierno-pelicula-mexicana-netflix_crop1629231317063.jpg?__scale=w:480,h:270,t:2" class="card-img-top" alt="Película 8">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- AQUÍ CIERRA carousel-inner -->
+
+  <!-- PASO F: BOTONES DE FLECHAS (Van después de cerrar carousel-inner) -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carruselTendencias" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carruselTendencias" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div> <!-- AQUÍ CIERRA EL CONTENEDOR PRINCIPAL -->
+
+
+     <!-- Fin Carrusel Tendencias -->
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
