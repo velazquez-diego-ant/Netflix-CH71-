@@ -1,0 +1,59 @@
+
+codigo para css:
+.card {
+    border: none; /*borde */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Sombra  */
+    overflow: hidden; /* header respete las esquinas redondas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+    max-width: 400px; /* Tamaño */
+    margin: 20px auto; /* Centra  */
+}
+
+.card:hover {
+    transform: translateY(-8px); /* Eleva la tarjeta l */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); /* Intensifica la sombra */
+}
+
+.card-header {
+    background-color:#ff0000; /* Fondo gris*/
+    border-bottom: 1px solid  #ff0000(0, 0, 0, 0.05); /* Línea  */
+    font-weight: 600; /* Texto */
+    text-transform: uppercase; /* Letras en mayúsculas */
+    font-size: 0.85rem; /* ligeramente más pequeño */
+    letter-spacing: 1px; /* Espaciado entre letras elegante */
+    color: #ff0000; /* Color gris de Bootstrap */
+    padding: 15px 20px;
+}
+
+.card-body {
+    padding: 30px 25px; /* Más espacio  */
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ff0000; /* Color oscuro profundo */
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #ff0000; /* Gris intermedio */
+    line-height: 1.6; /* Mayor espacio */
+    margin-bottom: 25px;
+}
+
+.card-body .btn-primary {
+    background-color: #ff0000;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px; /* Botón con esquinas*/
+    font-weight: 500;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.card-body .btn-primary:hover {
+    background-color: #ff0000; /* Azul más oscuro  */
+    transform: scale(1.02); 
+}
+
