@@ -1,4 +1,12 @@
 /*Estilo global de index*/
 body{
-    background: linear-gradient( #171311, #141414 ); /*color de fondo con degradado*/
+    background: #141414; /*color de fondo con degradado*/
+    font-family: "Inter", sans-serif; /*tipografia*/
+    color: #ffffff; /*color letras*/
 }
+    /* Otros colores
+        color rojo: #CE1016
+        color gris #333333
+        color negro navbar: #000000
+    */
+/*termina estilo global*/
