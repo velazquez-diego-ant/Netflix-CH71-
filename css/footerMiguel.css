@@ -1,4 +1,8 @@
 
+body{
+        background: linear-gradient( #171311, #141414 ); /*color de fondo con degradado*/
+
+}
 .card {
     border: none; /*borde */
     border-radius: 15px; /* Bordes más redondeados */
