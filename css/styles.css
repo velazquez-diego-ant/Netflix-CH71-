@@ -1,6 +1,6 @@
 /*Estilo global de index*/
 body{
-    background: #141414; /*color de fondo con degradado*/
+    background-color: #141414; /*color de fondo con degradado*/
     font-family: "Inter", sans-serif; /*tipografia*/
     color: #ffffff; /*color letras*/
 }
