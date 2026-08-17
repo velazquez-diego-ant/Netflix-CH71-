@@ -53,7 +53,7 @@ El proyecto cuenta con diferentes elementos inspirados en la interfaz de Netflix
 Proyecto realizado por:
 
 * Natalia
-* Alex
+* Alexander
 * Rosario
 * Circe
 * Alejandro
@@ -61,7 +61,8 @@ Proyecto realizado por:
 * Mike
 * Mireya
 * Diego
-
+* Carlos
+* Diana
 ---
 
 ## 🎯 Objetivo
