@@ -1,4 +1,41 @@
 /*Estilo global de index*/
 body{
     background: linear-gradient( #171311, #141414 ); /*color de fondo con degradado*/
+    
+ .netflix-list {
+  display: flex;
+  gap: 40px;                  /* Espacio para que quepa el número */
+  list-style: none;           /* Quita la numeración por defecto */
+  counter-reset: netflix;     /* Inicializa el contador */
+  padding-left: 100px;        /* Espacio inicial para el primer número */
+}
+
+.netflix-list li {
+  position: relative;
+  counter-increment: netflix; /* Incrementa el contador en cada elemento */
+}
+
+.netflix-list li::before {
+  content: counter(netflix);  /* Muestra el número del contador */
+  position: absolute;
+  left: -80px;                /* Saca el número a la izquierda de la imagen */
+  bottom: -10px;              /* Lo alinea a la base */
+  font-size: 160px;           /* Tamaño gigante estilo Netflix */
+  font-weight: 900;
+  color: #000;                /* Color de fondo del número */
+  line-height: 1;
+  
+  /* Efecto de borde (Outline) característico de Netflix */
+  -webkit-text-stroke: 4px #808080; 
+  
+  /* Evita que el número tape o interfiera con el click de la imagen */
+  pointer-events: none;       
+}
+
+.netflix-list img {
+  width: 200px;               /* Ajusta según tus necesidades */
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
 }
