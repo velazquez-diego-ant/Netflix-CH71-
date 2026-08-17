@@ -13,14 +13,12 @@ body {
     padding-left: 40px;
     padding-right: 40px;
 }
-
 /* Título de la sección */
 #mi-lista h2 {
     color: white;
     font-size: 32px;
     font-weight: bold;
 }
-
 /*    TARJETAS*/
 #mi-lista .card {
     background-color: #202020;
@@ -67,4 +65,7 @@ body {
     #mi-lista .card-img-top {
         height: 350px;
     }
-}
+/*Estilo global de index*/
+body{
+    background: linear-gradient( #171311, #141414 ); /*color de fondo con degradado*/
+ }
