@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #141414;
+}
+
+/**CAPA DE OSCURECIMIENTO*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+/**TARLETA DE LOGIN*/
+.login-card {
+    position: relative;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    color: #ffffff;
+    min-height: 500px;
+}
+
+/**LOGO DE NETFLIX*/
+.netflix-logo {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #e50914;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/**TITULO DEL LOGIN*/
+.login-title {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+/**CAMPOS DE ENTRADA*/
+.login-input {
+    background: #333333;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 16px 20px;
+    height: 50px;
+    font-size: 1rem;
+}
+
+.login-input:focus {
+    background: #454545;
+    border-color: #e50914;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.login-input::placeholder {
+    color: #8c8c8c;
+}
+
+/**BOTON DE INICIO*/
+.btn-login {
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 12px;
+    height: 48px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #f40612;
+    color: #ffffff;
+}
+
+.btn-login:active {
+    background-color: #b20710 !important;
+    color: #ffffff !important;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/**AJUSTES PARA LA RESPOSIVIDAD*/
+@media (max-width: 576px) {
+    .login-card {
+        padding: 20px !important;
+        margin: 0 10px;
+    }
+    
+    .netflix-logo {
+        font-size: 2rem;
+    }
+    
+    .login-title {
+        font-size: 1.5rem;
+    }
+}
+
+.login-card {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
